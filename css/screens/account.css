@@ -1,10 +1,15 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     display: flex;
     padding: 20px;
     flex-direction: column;
+    width: 963.2px;
+    height: 779px;
 }
 .stars{
     color: yellow;
@@ -16,7 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
+    width: 350px;
     height: 50px;
     background-color: tomato;
     border-radius: 10px;
@@ -49,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin-right: 350px;
+    margin-right: 400px;
     width: 300px;
     height: auto;
     background-color: white;
@@ -139,7 +144,7 @@ body{
 }
 .rv1_image{
     position: absolute;
-    margin-left: 700px;
+    margin-left: 750px;
 }
 .rv1_image img{
 width: 80px;
@@ -163,7 +168,7 @@ border-radius: 10px;
 }
 .rv3_image{
     position: absolute;
-    margin-left: 700px;
+    margin-left: 750px;
 }
 .rv3_image img{
     width: 80px;
