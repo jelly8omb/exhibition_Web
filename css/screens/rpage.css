@@ -1,15 +1,17 @@
 .rcontainer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     width: 1000px;
 }
 .review_main{
-    width: 800px;
+    width: 900px;
     height: 700px;
     padding: 1rem;
     background-color: rgb(241, 243, 246);
+    border-radius: 10px;
 }
 .alram{
     margin-left: 400px;
@@ -23,5 +25,130 @@
     margin-top: 20px;
     height: 590px;
     padding: 1rem;
+    border-radius: 1rem;
     background-color: white;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    height: 590px;
+    overflow-y: auto;
+    position: relative;
+    border-radius: 10px;
+}
+.reviews1{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.rrr{
+    width: 590px;
+}
+.reviews1_img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.reviews1_img2{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.reviews2{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(242, 242, 242);
+}
+.reviews2_img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.reviews2_img2{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.reviews3{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(242, 242, 242);
+}
+.reviews3_img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.reviews3_img2{
+    position: absolute;
+    left: 700px;
+    top: 285px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.reviews4{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(242, 242, 242);
+}
+.reviews4_img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.reviews4_img2{
+    position: absolute;
+    left: 700px;
+    top: 410px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.reviews5{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;    
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(242, 242, 242);
+}
+.reviews5_img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 2rem;
+}
+.reviews5_img2{
+    position: absolute;
+    left: 700px;
+    top: 555px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.rp_footer{
+    background-color: rgb(241, 243, 246);
 }
