@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    font-family: 'Quicksand', sans-serif;
     flex-direction: column;
     padding: 20px;
     height: 1000px;

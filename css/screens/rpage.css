@@ -1,5 +1,6 @@
 .rcontainer{
     display: flex;
+    font-family: 'Quicksand', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
